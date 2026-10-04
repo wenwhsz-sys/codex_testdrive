@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Transcribe an audio/video file with faster-whisper and write an SRT."""
 
+# This script uses the faster-whisper library to transcribe an audio or video file and outputs the transcription in SRT subtitle format. It handles word-level timestamps, groups words into readable cues, and formats them according to SRT specifications.
+pass
 import argparse
 import textwrap
 from pathlib import Path
